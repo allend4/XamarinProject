@@ -51,7 +51,7 @@
                         </ViewCell>
                         <ViewCell>
                             <StackLayout Orientation="Vertical">
-                                <Label>4.	Cook your rice/quinoa</Label>
+                                <Label>4.	Cook your rice/quinoa.</Label>
                             </StackLayout>
                         </ViewCell>
                         <ViewCell>

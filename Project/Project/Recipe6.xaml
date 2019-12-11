@@ -84,12 +84,12 @@
                 <TableSection Title="Instructions">
                     <ViewCell>
                         <StackLayout Orientation="Vertical" HorizontalOptions="Center">
-                            <Label>1.	Heat the oil in a pan over medium-high heat, add the beef and saute until just cooked, about 2-4 minutes..</Label>
+                            <Label>1.	Heat the oil in a pan over medium-high heat, add the beef and saute until just cooked, about 2-4 minutes.</Label>
                         </StackLayout>
                     </ViewCell>
                     <ViewCell>
                         <StackLayout Orientation="Vertical">
-                            <Label>2.	Mix the soy sauce, hoisin sauce, brown sugar, chili sauce, garlic, and ginger in a little bowl and add to the pan. Then mix the cornstarch and water and also add to the pan and cook until it thickens a bit, about a minute..</Label>
+                            <Label>2.	Mix the soy sauce, hoisin sauce, brown sugar, chili sauce, garlic, and ginger in a little bowl and add to the pan. Then mix the cornstarch and water and also add to the pan and cook until it thickens a bit, about a minute.</Label>
                         </StackLayout>
                     </ViewCell>
                     <ViewCell>
@@ -99,7 +99,7 @@
                     </ViewCell>
                     <ViewCell>
                         <StackLayout Orientation="Vertical">
-                            <Label>4.	Remove beef mixture from heat, mix in the sesame oil and serve over white rice or noodles, quinoa, etc. garnished with the green onions..</Label>
+                            <Label>4.	Remove beef mixture from heat, mix in the sesame oil and serve over white rice or noodles, quinoa, etc. garnished with the green onions.</Label>
                         </StackLayout>
                     </ViewCell>
                 </TableSection>
