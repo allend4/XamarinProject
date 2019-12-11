@@ -10,10 +10,10 @@
     <!--#endregion-->
     <ContentPage.Content>
         <ScrollView>
-    <StackLayout x:Name="SLContentPage" Margin="0, 4" Orientation="Vertical" VerticalOptions="Center">
-        <!--#region MenuBtns-->
+            <StackLayout x:Name="SLContentPage" Margin="0, 4" Orientation="Vertical" VerticalOptions="Center">
+                <!--#region MenuBtns-->
         <StackLayout>
-            <ImageButton Source="Meat.jpg" x:Name="BtnNoVeg" Margin="2, 1" HeightRequest="200" 
+            <ImageButton Source="Meat.jpg" x:Name="BtnNoVeg" Margin="2, 1" HeightRequest="200"
                      HorizontalOptions="Center" Clicked="BtnNoVeg_Clicked" BorderWidth="2" 
                      BorderColor="Red" BackgroundColor="White"/>
         <Label Text="Meat Recipes" TextColor="Red" HorizontalOptions="Center" Margin="1,1"/>
@@ -30,7 +30,7 @@
                          BackgroundColor="Red" TextColor="White"/>
         </StackLayout>
         <!--#endregion-->
-    </StackLayout>
+            </StackLayout>
         </ScrollView>
     </ContentPage.Content>
 </ContentPage>
