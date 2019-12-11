@@ -1,0 +1,54 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Project.MeatRecipe">
+    <!--#region Navbar-->
+    <NavigationPage.TitleView>
+        <Label Text="Recipes" TextColor="White"/>
+    </NavigationPage.TitleView>
+    <!--#endregion-->
+    <ScrollView x:Name="ScrollMeat" Orientation="Vertical">
+        <StackLayout x:Name="SLMeatPage" Margin="0, 4" >
+            <!--#region MeatRecipeBtns-->
+            <ImageButton Source="TeriyakiChicken.jpg" Margin="2, 1"
+                             VerticalOptions="Center"
+                             Clicked="ImageButton_Clicked"/>
+            <Label Text="Teriyaki Chicken" TextColor="Red" HorizontalOptions="Center" Margin="1,1"/>
+
+            <ImageButton Source="BasilHalloumiChicken.jpg" Margin="2,1"
+                             VerticalOptions="Center"
+                            Clicked="ImageButton_Clicked_1"/>
+            <Label Text="Basil Halloumi Chicken" TextColor="Red" HorizontalOptions="Center" Margin="1,1"/>
+            
+            <ImageButton Source="SausagePastaSkillet.jpg"
+                            Clicked="ImageButton_Clicked_2"/>
+            <Label Text="Sausage Pasta Skillet" TextColor="Red" HorizontalOptions="Center" Margin="1,1"/>
+            
+            <ImageButton Source="GarlicBasilChicken.jpg"
+                             HorizontalOptions="Center"
+                            Clicked="ImageButton_Clicked_3"/>
+            <Label Text="Garlic Basil Chicken" TextColor="Red" HorizontalOptions="Center" Margin="1,1"/>
+            
+            <ImageButton Source="MongolianBeef.jpg"
+                             HorizontalOptions="Center"
+                            Clicked="ImageButton_Clicked_4"/>
+            <Label Text="Mongolian Beef" TextColor="Red" HorizontalOptions="Center" Margin="1,1"/>
+            
+            <ImageButton Source="TacoPasta.jpg"
+                             HorizontalOptions="Center"
+                            Clicked="ImageButton_Clicked_5"/>
+            <Label Text="Taco Pasta" TextColor="Red" HorizontalOptions="Center" Margin="1,1"/>
+            
+            <ImageButton Source="CapreseChicken.jpg"
+                             HorizontalOptions="Center"
+                            Clicked="ImageButton_Clicked_6"/>
+            <Label Text="Caprese Chicken" TextColor="Red" HorizontalOptions="Center" Margin="1,1"/>
+            
+            <ImageButton Source="QuinoaPizzaBowls.jpg"
+                             HorizontalOptions="Center"
+                            Clicked="ImageButton_Clicked_7"/>
+            <Label Text="Quinoa Pizza Bowls" TextColor="Red" HorizontalOptions="Center" Margin="1,1"/>
+            <!--#endregion-->
+        </StackLayout>
+    </ScrollView>
+</ContentPage>

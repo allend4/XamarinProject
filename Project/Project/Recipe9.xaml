@@ -1,0 +1,100 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Project.Recipe9">
+    <!--#region Navbar-->
+    <NavigationPage.TitleView>
+        <Label Text="Quinoa Pizza Bowls" TextColor="White"/>
+    </NavigationPage.TitleView>
+    <!--#endregion-->
+    <StackLayout>
+        <Image Source="QuinoaPizzaBowls.jpg"/>
+        <TableView Intent="Settings" HasUnevenRows="True">
+            <TableRoot>
+                <!--#region RecipeIngredients-->
+                <TableSection Title="Ingredients">
+                    <ViewCell>
+                        <StackLayout Orientation="Vertical">
+                            <Label>1 cup (dry) quinoa</Label>
+                        </StackLayout>
+                    </ViewCell>
+                    <ViewCell>
+                        <StackLayout Orientation="Vertical">
+                            <Label>2 cups chicken or vegetable stock</Label>
+                        </StackLayout>
+                    </ViewCell>
+                    <ViewCell>
+                        <StackLayout Orientation="Vertical">
+                            <Label>2 (14-ounce) jars pizza sauce</Label>
+                        </StackLayout>
+                    </ViewCell>
+                    <ViewCell>
+                        <StackLayout Orientation="Vertical">
+                            <Label>8ozshredded Mozzarella cheese</Label>
+                        </StackLayout>
+                    </ViewCell>
+                    <ViewCell>
+                        <StackLayout Orientation="Vertical">
+                            <Label>2–3 cups of your favorite pizza toppings such as pepperoni, mushrooms, grated Parmesan cheese, crushed red peppers</Label>
+                        </StackLayout>
+                    </ViewCell>
+                </TableSection>
+                <!--#endregion-->
+                <!--#region RecipeInstructions-->
+                <TableSection Title="Instructions">
+                    <ViewCell>
+                        <StackLayout Orientation="Vertical" HorizontalOptions="Center">
+                            <Label>1.	Preheat oven to 180</Label>
+                        </StackLayout>
+                    </ViewCell>
+                    <ViewCell>
+                        <StackLayout Orientation="Vertical">
+                            <Label>2.	Cook quinoa in the chicken or vegetable stock according to package instructions.</Label>
+                        </StackLayout>
+                    </ViewCell>
+                    <ViewCell>
+                        <StackLayout Orientation="Vertical">
+                            <Label>3.	When the quinoa has finished cooking, fluff the quinoa with a fork.  Then stir about 1/2 cup pizza sauce into the quinoa until evenly combined.  Set aside.</Label>
+                        </StackLayout>
+                    </ViewCell>
+                    <ViewCell>
+                        <StackLayout Orientation="Vertical">
+                            <Label>4.	Lightly spray 6 large (10-ounce) oven-safe ramekins with cooking spray.  Place the ramekins on a large baking tray.</Label>
+                        </StackLayout>
+                    </ViewCell>
+                    <ViewCell>
+                        <StackLayout Orientation="Vertical">
+                            <Label>5.	Spread about 2 Tablespoons of pizza sauce evenly over the bottom of each ramekin.</Label>
+                        </StackLayout>
+                    </ViewCell>
+                    <ViewCell>
+                        <StackLayout Orientation="Vertical">
+                            <Label>6.	Layer each with about 1/4 cup of quinoa, and spread with a spoon to flatten.</Label>
+                        </StackLayout>
+                    </ViewCell>
+                    <ViewCell>
+                        <StackLayout Orientation="Vertical">
+                            <Label>7.	Layer each evenly with pinch of shredded Mozzarella.</Label>
+                        </StackLayout>
+                    </ViewCell>
+                    <ViewCell>
+                        <StackLayout Orientation="Vertical">
+                            <Label>8.	Layer each with a single layer of pizza toppings.</Label>
+                        </StackLayout>
+                    </ViewCell>
+                    <ViewCell>
+                        <StackLayout Orientation="Vertical">
+                            <Label>9.	Repeat by layering each with another layer of sauce, quinoa, Mozzarella, pizza toppings, followed by a final layer of Mozzarella.  The ramekins should be full but not overflowing.</Label>
+                        </StackLayout>
+                    </ViewCell>
+                    <ViewCell>
+                        <StackLayout Orientation="Vertical">
+                            <Label>10.	Transfer the baking sheet full of ramekins to the oven, and bake for 20 minutes, or until the cheese is melted and the ingredients are heated through.  At this point, you can either remove the pizza bowls from the oven.  Or if you’d like to get the cheese extra golden on top, you can turn the oven to grill. Then — keeping a close eye on the cheese so that it does not burn — grill the pizza bowls until the cheese is golden on top.</Label>
+                        </StackLayout>
+                    </ViewCell>
+                </TableSection>
+                <!--#endregion-->
+            </TableRoot>
+        </TableView>
+    </StackLayout>
+</ContentPage>

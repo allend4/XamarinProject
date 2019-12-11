@@ -1,0 +1,124 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Project.Recipe11">
+    <!--#region Navbar-->
+    <NavigationPage.TitleView>
+        <Label Text="Mediterranean Baked Sweet Potatoes" TextColor="White"/>
+    </NavigationPage.TitleView>
+    <!--#endregion-->
+    <StackLayout>
+        <Image Source="MediterraneanBakedSweetPotatoes.jpg"/>
+        <TableView Intent="Settings" HasUnevenRows="True">
+            <TableRoot>
+                <!--#region RecipeIngredients-->
+                <TableSection Title="Ingredients">
+                    <ViewCell>
+                        <StackLayout Orientation="Vertical">
+                            <Label>4 medium sweet potatoes</Label>
+                        </StackLayout>
+                    </ViewCell>
+                    <ViewCell>
+                        <StackLayout Orientation="Vertical">
+                            <Label>1 15-ounce can chickpeas (rinsed and drained)</Label>
+                        </StackLayout>
+                    </ViewCell>
+                    <ViewCell>
+                        <StackLayout Orientation="Vertical">
+                            <Label>1/2 Tbsp olive oil</Label>
+                        </StackLayout>
+                    </ViewCell>
+                    <ViewCell>
+                        <StackLayout Orientation="Vertical">
+                            <Label>1/2 tsp each cumin, coriander, cinnamon, paprika</Label>
+                        </StackLayout>
+                    </ViewCell>
+                    <ViewCell>
+                        <StackLayout Orientation="Vertical">
+                            <Label>1 pinch sea salt or lemon juice (optional)</Label>
+                        </StackLayout>
+                    </ViewCell>
+                </TableSection>
+                <!--#endregion-->
+                <!--#region GarlicHerbSauceInfo-->
+                <TableSection Title="garlic herb sauce">
+                    <ViewCell>
+                        <StackLayout Orientation="Vertical">
+                            <Label>1/4 cup hummus</Label>
+                        </StackLayout>
+                    </ViewCell>
+                    <ViewCell>
+                        <StackLayout Orientation="Vertical">
+                            <Label>1/2 medium lemon, juiced</Label>
+                        </StackLayout>
+                    </ViewCell>
+                    <ViewCell>
+                        <StackLayout Orientation="Vertical">
+                            <Label>3/4 - 1 tsp dried dill</Label>
+                        </StackLayout>
+                    </ViewCell>
+                    <ViewCell>
+                        <StackLayout Orientation="Vertical">
+                            <Label>3 cloves garlic, minced</Label>
+                        </StackLayout>
+                    </ViewCell>
+                    <ViewCell>
+                        <StackLayout Orientation="Vertical">
+                            <Label>Water or unsweetened almond milk</Label>
+                        </StackLayout>
+                    </ViewCell>
+                    <ViewCell>
+                        <StackLayout Orientation="Vertical">
+                            <Label>Sea salt to taste (optional)</Label>
+                        </StackLayout>
+                    </ViewCell>
+                </TableSection>
+                <!--#endregion-->
+                <!--#region Recipenstructions-->
+                <TableSection Title="Instructions">
+                    <ViewCell>
+                        <StackLayout Orientation="Vertical" HorizontalOptions="Center">
+                            <Label>1.	Preheat oven to 200 and line a large baking sheet with foil.</Label>
+                        </StackLayout>
+                    </ViewCell>
+                    <ViewCell>
+                        <StackLayout Orientation="Vertical">
+                            <Label>2.	Cut potatoes in half length wise.</Label>
+                        </StackLayout>
+                    </ViewCell>
+                    <ViewCell>
+                        <StackLayout Orientation="Vertical">
+                            <Label>3.	Toss rinsed and drained chickpeas with olive oil and spices and place on a foil-lined baking sheet.</Label>
+                        </StackLayout>
+                    </ViewCell>
+                    <ViewCell>
+                        <StackLayout Orientation="Vertical">
+                            <Label>4.	Rub the sweet potatoes with a bit of olive oil and place face down on the same baking sheet.</Label>
+                        </StackLayout>
+                    </ViewCell>
+                    <ViewCell>
+                        <StackLayout Orientation="Vertical">
+                            <Label>5.	While the sweet potatoes and chickpeas are roasting, prepare your sauce by adding all ingredients to a mixing bowl and whisking to combine, only adding enough water to almond milk to thin so it’s pourable. Taste and adjust seasonings as needed. Add more garlic for more zing, salt for savoriness, lemon juice for freshness, and dill for a more intense herb flavour.</Label>
+                        </StackLayout>
+                    </ViewCell>
+                    <ViewCell>
+                        <StackLayout Orientation="Vertical">
+                            <Label>6.	Also prepare the parsley-tomato topping by tossing tomato and parsley with lemon juice and setting aside to marinate.</Label>
+                        </StackLayout>
+                    </ViewCell>
+                    <ViewCell>
+                        <StackLayout Orientation="Vertical">
+                            <Label>7.	Once sweet potatoes are fork tender and the chickpeas are golden brown - roughly 25 minutes - remove from oven.</Label>
+                        </StackLayout>
+                    </ViewCell>
+                    <ViewCell>
+                        <StackLayout Orientation="Vertical">
+                            <Label>8.	For serving, flip potatoes flesh-side up and smash down the insides a little bit. Then top with chickpeas, sauce and parsley-tomato garnish. Serve immediately.</Label>
+                        </StackLayout>
+                    </ViewCell>
+                </TableSection>
+                <!--#endregion-->
+            </TableRoot>
+        </TableView>
+    </StackLayout>
+</ContentPage>

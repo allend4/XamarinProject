@@ -1,0 +1,110 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Project.Recipe6">
+    <!--#region Navbar-->
+    <NavigationPage.TitleView>
+        <Label Text="Mongolian Beef" TextColor="White"/>
+    </NavigationPage.TitleView>
+    <!--#endregion-->
+    <StackLayout>
+        <Image Source="MongolianBeef.jpg"/>
+        <TableView Intent="Settings" HasUnevenRows="True">
+            <TableRoot>
+                <!--#region RecipeIngredients-->
+                <TableSection Title="Ingredients">
+                    <ViewCell>
+                        <StackLayout Orientation="Vertical">
+                            <Label>1 tablespoon oil</Label>
+                        </StackLayout>
+                    </ViewCell>
+                    <ViewCell>
+                        <StackLayout Orientation="Vertical">
+                            <Label>1 pound steak (sirloin or flank), sliced thinly</Label>
+                        </StackLayout>
+                    </ViewCell>
+                    <ViewCell>
+                        <StackLayout Orientation="Vertical">
+                            <Label>3 tablespoons soy sauce</Label>
+                        </StackLayout>
+                    </ViewCell>
+                    <ViewCell>
+                        <StackLayout Orientation="Vertical">
+                            <Label>1 tablespoon hoisin sauce</Label>
+                        </StackLayout>
+                    </ViewCell>
+                    <ViewCell>
+                        <StackLayout Orientation="Vertical">
+                            <Label>1 tablespoon brown sugar</Label>
+                        </StackLayout>
+                    </ViewCell>
+                    <ViewCell>
+                        <StackLayout Orientation="Vertical">
+                            <Label>1 teaspoon chill sauce</Label>
+                        </StackLayout>
+                    </ViewCell>
+                    <ViewCell>
+                        <StackLayout Orientation="Vertical">
+                            <Label>1 clove garlic, grated</Label>
+                        </StackLayout>
+                    </ViewCell>
+                    <ViewCell>
+                        <StackLayout Orientation="Vertical">
+                            <Label>1 teaspoon ginger, grated</Label>
+                        </StackLayout>
+                    </ViewCell>
+                    <ViewCell>
+                        <StackLayout Orientation="Vertical">
+                            <Label>1 tablespoon cornstarch</Label>
+                        </StackLayout>
+                    </ViewCell>
+                    <ViewCell>
+                        <StackLayout Orientation="Vertical">
+                            <Label>1/3 cup water or beef broth</Label>
+                        </StackLayout>
+                    </ViewCell>
+                    <ViewCell>
+                        <StackLayout Orientation="Vertical">
+                            <Label>1 teaspoon sesame oil</Label>
+                        </StackLayout>
+                    </ViewCell>
+                    <ViewCell>
+                        <StackLayout Orientation="Vertical">
+                            <Label>1/4 cup green onion, sliced</Label>
+                        </StackLayout>
+                    </ViewCell>
+                    <ViewCell>
+                        <StackLayout Orientation="Vertical">
+                            <Label>1 cup rice/noodle/quinoa</Label>
+                        </StackLayout>
+                    </ViewCell>
+                </TableSection>
+                <!--#endregion-->
+                <!--#region RecipeInstructions-->
+                <TableSection Title="Instructions">
+                    <ViewCell>
+                        <StackLayout Orientation="Vertical" HorizontalOptions="Center">
+                            <Label>1.	Heat the oil in a pan over medium-high heat, add the beef and saute until just cooked, about 2-4 minutes..</Label>
+                        </StackLayout>
+                    </ViewCell>
+                    <ViewCell>
+                        <StackLayout Orientation="Vertical">
+                            <Label>2.	Mix the soy sauce, hoisin sauce, brown sugar, chili sauce, garlic, and ginger in a little bowl and add to the pan. Then mix the cornstarch and water and also add to the pan and cook until it thickens a bit, about a minute..</Label>
+                        </StackLayout>
+                    </ViewCell>
+                    <ViewCell>
+                        <StackLayout Orientation="Vertical">
+                            <Label>3.	Cook your choice of rice/noodles/quinoa.</Label>
+                        </StackLayout>
+                    </ViewCell>
+                    <ViewCell>
+                        <StackLayout Orientation="Vertical">
+                            <Label>4.	Remove beef mixture from heat, mix in the sesame oil and serve over white rice or noodles, quinoa, etc. garnished with the green onions..</Label>
+                        </StackLayout>
+                    </ViewCell>
+                </TableSection>
+                <!--#endregion-->
+            </TableRoot>
+        </TableView>
+    </StackLayout>
+</ContentPage>

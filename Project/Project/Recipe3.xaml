@@ -1,0 +1,155 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Project.Recipe3">
+    <!--#region Navbar-->
+    <NavigationPage.TitleView>
+        <Label Text="Basil Halloumi Chicken" TextColor="White"/>
+    </NavigationPage.TitleView>
+    <!--#endregion-->
+    <StackLayout>
+        <Image Source="BasilHalloumiChicken.jpg"/>
+        <TableView Intent="Settings" HasUnevenRows="True">
+            <TableRoot>
+                <!--#region RecipeIngredients-->
+                <TableSection Title="Ingredients">
+                    <ViewCell>
+                        <StackLayout Orientation="Vertical">
+                            <Label>2 chicken breasts</Label>
+                        </StackLayout>
+                    </ViewCell>
+                    <ViewCell>
+                        <StackLayout Orientation="Vertical">
+                            <Label>8 oz halloumi cheese</Label>
+                        </StackLayout>
+                    </ViewCell>
+                    <ViewCell>
+                        <StackLayout Orientation="Vertical">
+                            <Label>2 cartons cherry tomato</Label>
+                        </StackLayout>
+                    </ViewCell>
+                    <ViewCell>
+                        <StackLayout Orientation="Vertical">
+                            <Label>4 leaves fresh basil, large</Label>
+                        </StackLayout>
+                    </ViewCell>
+                    <ViewCell>
+                        <StackLayout Orientation="Vertical">
+                            <Label>2 teaspoons salt</Label>
+                        </StackLayout>
+                    </ViewCell>
+                    <ViewCell>
+                        <StackLayout Orientation="Vertical">
+                            <Label>2 teaspoons pepper</Label>
+                        </StackLayout>
+                    </ViewCell>
+                    <ViewCell>
+                        <StackLayout Orientation="Vertical">
+                            <Label>⅓ cup olive oil (80 mL)</Label>
+                        </StackLayout>
+                    </ViewCell>
+
+                    <ViewCell>
+                        <StackLayout Orientation="Vertical">
+                            <Label>1tsp basil pesto</Label>
+                        </StackLayout>
+                    </ViewCell>
+                    <ViewCell>
+                        <StackLayout Orientation="Vertical">
+                            <Label>Salt</Label>
+                        </StackLayout>
+                    </ViewCell>
+                    <ViewCell>
+                        <StackLayout Orientation="Vertical">
+                            <Label>Black pepper</Label>
+                        </StackLayout>
+                    </ViewCell>
+                    <ViewCell>
+                        <StackLayout Orientation="Vertical">
+                            <Label>40g feta cheese, crumbled</Label>
+                        </StackLayout>
+                    </ViewCell>
+                </TableSection>
+                <!--#endregion-->
+                <!--#region BasilOilInfo-->
+                <TableSection Title="Make Basil Oil">
+                    <ViewCell>
+                        <StackLayout Orientation="Vertical">
+                            <Label>⅓ cup olive oil (80 mL)</Label>
+                        </StackLayout>
+                    </ViewCell>
+                    <ViewCell>
+                        <StackLayout Orientation="Vertical">
+                            <Label>3 cloves garlic</Label>
+                        </StackLayout>
+                    </ViewCell>
+                    <ViewCell>
+                        <StackLayout Orientation="Vertical">
+                            <Label>2 large handfuls fresh basil</Label>
+                        </StackLayout>
+                    </ViewCell>
+                    <ViewCell>
+                        <StackLayout Orientation="Vertical">
+                            <Label>1 teaspoon salt</Label>
+                        </StackLayout>
+                    </ViewCell>
+                    <ViewCell>
+                        <StackLayout Orientation="Vertical">
+                            <Label>1 teaspoon pepper</Label>
+                        </StackLayout>
+                    </ViewCell>
+                    <ViewCell>
+                        <StackLayout Orientation="Vertical">
+                            <Label>½ lemon, juiced</Label>
+                        </StackLayout>
+                    </ViewCell>
+                </TableSection>
+                <!--#endregion-->
+                <!--#region RecipeInstructions-->
+                <TableSection Title="Instructions">
+                    <ViewCell>
+                        <StackLayout Orientation="Vertical" HorizontalOptions="Center">
+                            <Label>1.	Preheat your oven to 350˚F / 175˚ C</Label>
+                        </StackLayout>
+                    </ViewCell>
+                    <ViewCell>
+                        <StackLayout Orientation="Vertical">
+                            <Label>2.	Turn the block of halloumi on its side and cut it into three to four even slices. Set aside.</Label>
+                        </StackLayout>
+                    </ViewCell>
+                    <ViewCell>
+                        <StackLayout Orientation="Vertical">
+                            <Label>3.	Pour the olive oil, salt, and pepper into a large plastic bag. Put the tomatoes and chicken in and massage until everything is evenly coated in the seasoned oil.</Label>
+                        </StackLayout>
+                    </ViewCell>
+                    <ViewCell>
+                        <StackLayout Orientation="Vertical">
+                            <Label>4.	Dump everything onto a foil lined baking sheet. Top the chicken with the large basil leaves and then the slices of halloumi.</Label>
+                        </StackLayout>
+                    </ViewCell>
+                    <ViewCell>
+                        <StackLayout Orientation="Vertical">
+                            <Label>5.	Bake for 15 minutes at 175˚, then turn on the grill setting and cook for another 10 minutes or until the cheese is golden brown and the chicken is cooked. (note: oven times vary, so keep an eye on it!)</Label>
+                        </StackLayout>
+                    </ViewCell>
+                    <ViewCell>
+                        <StackLayout Orientation="Vertical">
+                            <Label>6.	Take the chicken out and let it rest on a plate and continue to cook the tomatoes for 10 more minutes back on 175˚ C.</Label>
+                        </StackLayout>
+                    </ViewCell>
+                    <ViewCell>
+                        <StackLayout Orientation="Vertical">
+                            <Label>7.	Meanwhile, add the olive oil, garlic, salt, pepper, and lemon juice to a blender and blitz for 30 seconds. Next add the basil and blitz until it's the consistency of pesto, about 30 seconds.</Label>
+                        </StackLayout>
+                    </ViewCell>
+                    <ViewCell>
+                        <StackLayout Orientation="Vertical">
+                            <Label>8.	Plate up the tomatoes with the chicken and drizzle with the basil oil.</Label>
+                        </StackLayout>
+                    </ViewCell>
+                </TableSection>
+                <!--#endregion-->
+            </TableRoot>
+        </TableView>
+    </StackLayout>
+</ContentPage> 

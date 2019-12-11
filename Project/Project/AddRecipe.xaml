@@ -1,0 +1,35 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Project.AddRecipe">
+
+    <!--#region Navbar-->
+    <NavigationPage.TitleView>
+        <Label Text="Recipes" TextColor="White"/>
+    </NavigationPage.TitleView>
+    <!--#endregion-->
+    <StackLayout Margin="10,35,10,10">
+        <Label Text="Add your own Recipes / Notes" 
+               HorizontalOptions="Center" 
+               FontAttributes="Bold" 
+               TextColor="Red"/>
+        <Editor x:Name="_editor"
+                Placeholder="Enter recipe"
+                HeightRequest="150"/>
+        <!--#region Grid containing Save/Delete Btn-->
+        <Grid>
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="*" />
+                <ColumnDefinition Width="*" />
+            </Grid.ColumnDefinitions>
+            <Button x:Name="SaveBtn" Text="Save" 
+                    Clicked="SaveBtn_Clicked" 
+                    BackgroundColor="Red" TextColor="White"/>
+            <Button Grid.Column="1"
+                    x:Name="DeleteBtn" Text="Delete" 
+                    Clicked="DeleteBtn_Clicked"
+                    BackgroundColor="Red" TextColor="White"/>
+        </Grid>
+        <!--#endregion-->
+    </StackLayout>
+</ContentPage>

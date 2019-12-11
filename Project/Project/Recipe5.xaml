@@ -1,0 +1,95 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Project.Recipe5">
+    <!--#region Navbar-->
+    <NavigationPage.TitleView>
+        <Label Text="Garlic Basil Chicken" TextColor="White"/>
+    </NavigationPage.TitleView>
+    <!--#endregion-->
+    <StackLayout>
+        <Image Source="GarlicBasilChicken.jpg"/>
+        <TableView Intent="Settings" HasUnevenRows="True">
+            <TableRoot>
+                <!--#region RecipeIngredients-->
+                <TableSection Title="Ingredients">
+                    <ViewCell>
+                        <StackLayout Orientation="Vertical">
+                            <Label>1 lb. boneless skinless chicken breasts</Label>
+                        </StackLayout>
+                    </ViewCell>
+                    <ViewCell>
+                        <StackLayout Orientation="Vertical">
+                            <Label>salt and pepper</Label>
+                        </StackLayout>
+                    </ViewCell>
+                    <ViewCell>
+                        <StackLayout Orientation="Vertical">
+                            <Label>1 red bell pepper, sliced</Label>
+                        </StackLayout>
+                    </ViewCell>
+                    <ViewCell>
+                        <StackLayout Orientation="Vertical">
+                            <Label>1/4 cup olive oil</Label>
+                        </StackLayout>
+                    </ViewCell>
+                    <ViewCell>
+                        <StackLayout Orientation="Vertical">
+                            <Label>5–6 roma tomatoes, diced</Label>
+                        </StackLayout>
+                    </ViewCell>
+                    <ViewCell>
+                        <StackLayout Orientation="Vertical">
+                            <Label>3 cloves garlic, minced</Label>
+                        </StackLayout>
+                    </ViewCell>
+                    <ViewCell>
+                        <StackLayout Orientation="Vertical">
+                            <Label>one handful fresh basil, loosely packed, cut into ribbons</Label>
+                        </StackLayout>
+                    </ViewCell>
+                    <ViewCell>
+                        <StackLayout Orientation="Vertical">
+                            <Label>1/4 cup salted butter</Label>
+                        </StackLayout>
+                    </ViewCell>
+                    <ViewCell>
+                        <StackLayout Orientation="Vertical">
+                            <Label>8 ounces pasta, like spaghetti, linguine, or bucatini</Label>
+                        </StackLayout>
+                    </ViewCell>
+                </TableSection>
+                <!--#endregion-->
+                <!--#region RecipeInstructions-->
+                <TableSection Title="Instructions">
+                    <ViewCell>
+                        <StackLayout Orientation="Vertical" HorizontalOptions="Center">
+                            <Label>1.	Cover the chicken with plastic wrap and pound each piece to an even thickness, about one inch or so in the thickest parts Remove the plastic and sprinkle each piece of chicken generously with sea salt and freshly ground pepper.</Label>
+                        </StackLayout>
+                    </ViewCell>
+                    <ViewCell>
+                        <StackLayout Orientation="Vertical">
+                            <Label>2.	2Prep the tomatoes, garlic, and basil and set aside. Make the pasta according to package directions.</Label>
+                        </StackLayout>
+                    </ViewCell>
+                    <ViewCell>
+                        <StackLayout Orientation="Vertical">
+                            <Label>3.	Heat the olive oil in a large heavy skillet. Add the chicken and pan-fry for several minutes on each side until fully cooked and nicely browned. When the chicken is done, set aside.n</Label>
+                        </StackLayout>
+                    </ViewCell>
+                    <ViewCell>
+                        <StackLayout Orientation="Vertical">
+                            <Label>4.	Give the oil a few minutes to cool, add the tomatoes, and return to heat. Simmer to cook the tomatoes down into a chunky-sauce-like-mixture. Add the garlic and butter and stir to combine until the butter is melted. Add the chicken back in to soak in the sauce for a few minutes.</Label>
+                        </StackLayout>
+                    </ViewCell>
+                    <ViewCell>
+                        <StackLayout Orientation="Vertical">
+                            <Label>5.	Just before serving, stir in the basil. Top servings of pasta with the chicken and the sauce.</Label>
+                        </StackLayout>
+                    </ViewCell>
+                </TableSection>
+                <!--#endregion-->
+            </TableRoot>
+        </TableView>
+    </StackLayout>
+</ContentPage>

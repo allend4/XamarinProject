@@ -1,0 +1,106 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Project.Recipe2">
+    <!--#region Navbar-->
+    <NavigationPage.TitleView>
+        <Label Text="Avocado Soup With Feta" TextColor="White"/>
+    </NavigationPage.TitleView>
+    <!--#endregion-->
+        <StackLayout>
+            <Image Source="AvocadoSoupWithFeta.jpg"/>
+            <TableView Intent="Settings" HasUnevenRows="True">
+                <TableRoot>
+                    <!--#region RecipeIngredients-->
+                    <TableSection Title="Ingredients">
+                        <ViewCell>
+                            <StackLayout Orientation="Vertical">
+                                <Label>10g butter</Label>
+                            </StackLayout>
+                        </ViewCell>
+                        <ViewCell>
+                            <StackLayout Orientation="Vertical">
+                                <Label>1tbsp olive oil</Label>
+                            </StackLayout>
+                        </ViewCell>
+                        <ViewCell>
+                            <StackLayout Orientation="Vertical">
+                                <Label>2 spring onions, sliced</Label>
+                            </StackLayout>
+                        </ViewCell>
+                        <ViewCell>
+                            <StackLayout Orientation="Vertical">
+                                <Label>2 baby gem lettuces, roughly chopped</Label>
+                            </StackLayout>
+                        </ViewCell>
+                        <ViewCell>
+                            <StackLayout Orientation="Vertical">
+                                <Label>1 avocado, roughly chopped</Label>
+                            </StackLayout>
+                        </ViewCell>
+                        <ViewCell>
+                            <StackLayout Orientation="Vertical">
+                                <Label>350ml vegetable stock</Label>
+                            </StackLayout>
+                        </ViewCell>
+                        <ViewCell>
+                            <StackLayout Orientation="Vertical">
+                                <Label>1tbsp lemon juice</Label>
+                            </StackLayout>
+                        </ViewCell>
+                        <ViewCell>
+                            <StackLayout Orientation="Vertical">
+                                <Label>3tbsp frozen peas</Label>
+                            </StackLayout>
+                        </ViewCell>
+                        <ViewCell>
+                            <StackLayout Orientation="Vertical">
+                                <Label>1tbsp parsley, roughly chopped</Label>
+                            </StackLayout>
+                        </ViewCell>
+                        <ViewCell>
+                            <StackLayout Orientation="Vertical">
+                                <Label>1tsp basil pesto</Label>
+                            </StackLayout>
+                        </ViewCell>
+                        <ViewCell>
+                            <StackLayout Orientation="Vertical">
+                                <Label>Salt</Label>
+                            </StackLayout>
+                        </ViewCell>
+                        <ViewCell>
+                            <StackLayout Orientation="Vertical">
+                                <Label>Black pepper</Label>
+                            </StackLayout>
+                        </ViewCell>
+                        <ViewCell>
+                            <StackLayout Orientation="Vertical">
+                                <Label>40g feta cheese, crumbled</Label>
+                            </StackLayout>
+                        </ViewCell>
+                    </TableSection>
+                    <!--#endregion-->
+                    <!--#region RecipeInstructions-->
+                    <TableSection Title="Instructions">
+                        <ViewCell>
+                            <StackLayout Orientation="Vertical" HorizontalOptions="Center">
+                                <Label>1.	Heat the butter and oil in a saucepan, and add the spring onions and baby gem. Cook for a few minutes until the onions are fragrant and the lettuce is just beginning to caramelize on the edges. Add the next 6 ingredients (avocado to pesto), and bring to a gentle simmer. Use your wooden spoon to mash the avocado a little.</Label>
+                            </StackLayout>
+                        </ViewCell>
+                        <ViewCell>
+                            <StackLayout Orientation="Vertical">
+                                <Label>2.	After about five minutes, remove from the heat and use an immersion blender to blend the soup until smooth. Season to taste, and return to the heat if necessary.</Label>
+                            </StackLayout>
+                        </ViewCell>
+                        <ViewCell>
+                            <StackLayout Orientation="Vertical">
+                                <Label>3.	Serve topped with the feta cheese and, if desired, more black pepper and parsley.</Label>
+                            </StackLayout>
+                        </ViewCell>
+                    </TableSection>
+                    <!--#endregion-->
+                </TableRoot>
+            </TableView>
+        </StackLayout>
+  
+</ContentPage>

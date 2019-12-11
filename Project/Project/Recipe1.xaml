@@ -1,0 +1,69 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Project.Recipe1">
+    <!--#region Navbar-->
+    <NavigationPage.TitleView>
+        <Label Text="Teriyaki Chicken" TextColor="White"/>
+    </NavigationPage.TitleView>
+    <!--#endregion-->
+    <ContentPage.Content>
+        <StackLayout x:Name="Meat1">
+            <Image Source="TeriyakiChicken.jpg"/>
+            <!--#region TableContent-->
+            <TableView Intent="Settings" HasUnevenRows="True">
+                <TableRoot>
+                    <!--#region RecipeIngredients-->
+                    <TableSection Title="Ingredients">
+                        <ViewCell>
+                            <StackLayout Orientation="Vertical">
+                                <Label>3 organic chicken breasts</Label>
+                            </StackLayout>
+                        </ViewCell>
+                        <ViewCell>
+                            <StackLayout Orientation="Vertical">
+                                <Label>3 cups broccoli, steamed</Label>
+                            </StackLayout>
+                        </ViewCell>
+                        <ViewCell>
+                            <StackLayout Orientation="Vertical">
+                                <Label>1 Tablespoon oil</Label>
+                            </StackLayout>
+                        </ViewCell>
+                    </TableSection>
+                    <!--#endregion-->
+                    <!--#region RecipeInstruction-->
+                    <TableSection Title="Instructions">
+                        <ViewCell>
+                            <StackLayout Orientation="Vertical" HorizontalOptions="Center">
+                                <Label>1.	Whisk all of teriyaki sauce ingredients in a small bowl.</Label>
+                            </StackLayout>
+                        </ViewCell>
+                        <ViewCell>
+                            <StackLayout Orientation="Vertical">
+                                <Label>2.	On medium heat in a cast-iron skillet brown chicken in oil until cooked on all sides and slightly crispy. *make sure pan is hot but not burning*</Label>
+                            </StackLayout>
+                        </ViewCell>
+                        <ViewCell>
+                            <StackLayout Orientation="Vertical">
+                                <Label>3.	Add teriyaki sauce to cooked chicken and stir for 1 to 2 minutes for sauce to thicken.</Label>
+                            </StackLayout>
+                        </ViewCell>
+                        <ViewCell>
+                            <StackLayout Orientation="Vertical">
+                                <Label>4.	Cook your rice/quinoa</Label>
+                            </StackLayout>
+                        </ViewCell>
+                        <ViewCell>
+                            <StackLayout Orientation="Vertical">
+                                <Label>5.	Stir in broccoli with chicken and sauce. Serve over rice with sprinkled sesame seeds and enjoy!</Label>
+                            </StackLayout>
+                        </ViewCell>
+                    </TableSection>
+                    <!--#endregion-->
+                </TableRoot>
+            </TableView>
+            <!--#endregion-->
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>

@@ -1,0 +1,51 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Project.VegRecipe">
+    <!--#region Navbar-->
+    <NavigationPage.TitleView>
+        <Label Text="Vegetarian Recipes" TextColor="White"/>
+    </NavigationPage.TitleView>
+    <!--#endregion-->
+    <ScrollView Orientation="Vertical">
+        <StackLayout x:Name="SLVegPage">
+            <!--#region RecipeBtns-->
+            <ImageButton Source="AvocadoSoupWithFeta.jpg"
+                         HorizontalOptions="Center"
+                         Clicked="ImageButton_Clicked_1"/>
+            <Label Text="Avocado Soup With Feta" TextColor="Red" HorizontalOptions="Center" Margin="1,1"/>
+
+            <ImageButton Source="ChickpeaGyros.jpg"
+                         HorizontalOptions="Center"
+                         Clicked="ImageButton_Clicked"/>
+            <Label Text="Chickpea Gyros" TextColor="Red" HorizontalOptions="Center" Margin="1,1"/>
+
+            <ImageButton Source="MediterraneanBakedSweetPotatoes.jpg"
+                         HorizontalOptions="Center"
+                         Clicked="ImageButton_Clicked_2"/>
+            <Label Text="Mediterranean Baked Sweet Potatoes" TextColor="Red" HorizontalOptions="Center" Margin="1,1"/>
+
+            <ImageButton Source="TomatoandHalloumiBake.jpg"
+                         HorizontalOptions="Center"
+                         Clicked="ImageButton_Clicked_3"/>
+            <Label Text="Tomato and Halloumi Bake" TextColor="Red" HorizontalOptions="Center" Margin="1,1"/>
+
+            <ImageButton Source="RedBeansAndRice.jpg"
+                         HorizontalOptions="Center"
+                         Clicked="ImageButton_Clicked_4"/>
+            <Label Text="Red Beans And Rice" TextColor="Red" HorizontalOptions="Center" Margin="1,1"/>
+
+            <ImageButton Source="ParsleyAndGarlicSalmon.jpg"
+                         HorizontalOptions="Center"
+                         Clicked="ImageButton_Clicked_5"/>
+            <Label Text="Parsley And Garlic Salmon" TextColor="Red" HorizontalOptions="Center" Margin="1,1"/>
+
+            <ImageButton Source="QuinoaPizzaBowlsVeg.jpg"
+                         HorizontalOptions="Center"
+                         Clicked="ImageButton_Clicked_6"/>
+            <Label Text="Quinoa Pizza Bowls" TextColor="Red" HorizontalOptions="Center" Margin="1,1"/>
+
+            <!--#endregion-->
+        </StackLayout>
+    </ScrollView>
+</ContentPage>

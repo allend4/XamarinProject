@@ -1,0 +1,36 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:local="clr-namespace:Project"
+             x:Class="Project.MainPage" >
+    <!--#region Navbar-->
+    <NavigationPage.TitleView>
+        <Image Source="ic_launcher"/>
+    </NavigationPage.TitleView>
+    <!--#endregion-->
+    <ContentPage.Content>
+        <ScrollView>
+    <StackLayout x:Name="SLContentPage" Margin="0, 4" Orientation="Vertical" VerticalOptions="Center">
+        <!--#region MenuBtns-->
+        <StackLayout>
+            <ImageButton Source="Meat.jpg" x:Name="BtnNoVeg" Margin="2, 1" HeightRequest="200" 
+                     HorizontalOptions="Center" Clicked="BtnNoVeg_Clicked" BorderWidth="2" 
+                     BorderColor="Red" BackgroundColor="White"/>
+        <Label Text="Meat Recipes" TextColor="Red" HorizontalOptions="Center" Margin="1,1"/>
+        </StackLayout>
+        <StackLayout>
+            <ImageButton Source="Veg.jpg" x:Name="BtnVeg" Margin="2, 1" HeightRequest="200"
+                     HorizontalOptions="Center" Clicked="BtnVeg_Clicked" BorderWidth="2"
+                     BorderColor="Red" BackgroundColor="white"/>
+        <Label Text="Vegetarian Recipes" TextColor="Red" HorizontalOptions="Center" Margin="1,1"/>
+        </StackLayout>
+        <StackLayout>
+            <Button x:Name="BtnAddRecipe" Margin="2, 1" Text="  Add Your own Recipe  "
+                         HorizontalOptions="CenterAndExpand" Clicked="BtnAddRecipe_Clicked"
+                         BackgroundColor="Red" TextColor="White"/>
+        </StackLayout>
+        <!--#endregion-->
+    </StackLayout>
+        </ScrollView>
+    </ContentPage.Content>
+</ContentPage>
